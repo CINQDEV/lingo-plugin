@@ -16,5 +16,6 @@ if(!function_exists('wp_get_current_user')) {
 
 include("parts/acf.php");
 include("parts/custom_posts.php");
+include("parts/custom_tax.php");
 
 ?>
