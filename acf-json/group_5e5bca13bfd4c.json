@@ -3,20 +3,32 @@
     "title": "Item",
     "fields": [
         {
+            "key": "field_5e5bf3fc0c867",
+            "label": "Number",
+            "name": "item_number",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "5",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5e5bce3bc454c",
             "label": "Item A",
             "name": "item_a",
             "type": "text",
             "instructions": "",
             "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_5e5bd15b763dc",
-                        "operator": "!=empty"
-                    }
-                ]
-            ],
+            "conditional_logic": 0,
             "wrapper": {
                 "width": "",
                 "class": "",
@@ -68,8 +80,8 @@
         },
         {
             "key": "field_5e5beadff0399",
-            "label": "Item C",
-            "name": "item_c",
+            "label": "Item D",
+            "name": "item_d",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -128,5 +140,5 @@
         "button_label": "Ad Number",
         "appearances": ""
     },
-    "modified": 1583083085
+    "modified": 1583084799
 }
