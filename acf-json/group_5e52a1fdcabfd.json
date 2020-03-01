@@ -3,23 +3,20 @@
     "title": "Games",
     "fields": [
         {
-            "key": "field_5e52ab7599e2a",
-            "label": "Description",
-            "name": "game_description",
-            "type": "wysiwyg",
+            "key": "field_5e5beb3ce9a1d",
+            "label": "Game Items",
+            "name": "",
+            "type": "tab",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "100",
+                "width": "",
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
+            "placement": "top",
+            "endpoint": 0
         },
         {
             "key": "field_5e52a21672a95",
@@ -65,6 +62,127 @@
             "mime_types": ""
         },
         {
+            "key": "field_5e5bebde5e960",
+            "label": "Short Description",
+            "name": "game_short_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5e52ab7599e2a",
+            "label": "Description",
+            "name": "game_long_description",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5e5beb5ce9a1e",
+            "label": "Columns",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e5becf6ee145",
+            "label": "Number of Columns",
+            "name": "game_number_of_columns",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "4": "4",
+                "5": "5"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5e5bed1fee146",
+            "label": "Use image",
+            "name": "use_image",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Yes": "Yes",
+                "No": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5e5beb95e9a1f",
+            "label": "Numbers",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
             "key": "field_5e5bce8273551",
             "label": "Item",
             "name": "game_item",
@@ -73,7 +191,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "100",
                 "class": "number",
                 "id": ""
             },
@@ -81,9 +199,12 @@
             "repeatable": 1,
             "min": "",
             "max": 100,
-            "layout": "row",
-            "button_label": "Ad Number",
-            "appearances": "",
+            "layout": "table",
+            "button_label": "Add Number",
+            "appearances": [
+                "hide-outer-boundary",
+                "hide-outer-label"
+            ],
             "collapsed": "",
             "sub_fields": []
         }
@@ -129,5 +250,5 @@
         "button_label": "",
         "appearances": ""
     },
-    "modified": 1583077015
+    "modified": 1583082977
 }

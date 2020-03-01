@@ -1,0 +1,24 @@
+.acf-row:nth-child(n+1):nth-child(-n+20) .acf-row-handle {
+    background: #FD7619!important;
+    color: white
+}
+
+.acf-row:nth-child(n+21):nth-child(-n+40) .acf-row-handle {
+    background: #FFDF2F!important;
+    color: white
+}
+
+.acf-row:nth-child(n+41):nth-child(-n+60) .acf-row-handle {
+    background:  #BDDA46!important;
+    color: white
+}
+
+.acf-row:nth-child(n+61):nth-child(-n+80) .acf-row-handle {
+    background: #338B74!important;
+    color: white
+}
+
+.acf-row:nth-child(n+81):nth-child(-n+100) .acf-row-handle {
+    background: #668994!important;
+    color: white
+}
