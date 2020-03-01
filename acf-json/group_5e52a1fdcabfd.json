@@ -360,6 +360,25 @@
             "maxlength": ""
         },
         {
+            "key": "field_5e5c092e32911",
+            "label": "Picture 2",
+            "name": "game_label_picture_2",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5e5bf72436681",
             "label": "Video",
             "name": "game_label_video",
@@ -481,5 +500,5 @@
         "button_label": "",
         "appearances": ""
     },
-    "modified": 1583085611
+    "modified": 1583089975
 }

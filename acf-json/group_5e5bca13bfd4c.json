@@ -160,6 +160,30 @@
             "mime_types": ""
         },
         {
+            "key": "field_5e5c090453af1",
+            "label": "Image2",
+            "name": "item_image_2",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_5e5c0344f0486",
             "label": "Audio",
             "name": "item_audio",
@@ -216,5 +240,5 @@
         "button_label": "Ad Number",
         "appearances": ""
     },
-    "modified": 1583089037
+    "modified": 1583089950
 }
