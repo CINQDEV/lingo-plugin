@@ -163,7 +163,7 @@
             "key": "field_5e5c0344f0486",
             "label": "Audio",
             "name": "item_audio",
-            "type": "oembed",
+            "type": "file",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -172,14 +172,17 @@
                 "class": "",
                 "id": ""
             },
-            "width": "",
-            "height": ""
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
         },
         {
             "key": "field_5e5c0381f0487",
             "label": "Video",
             "name": "item_video",
-            "type": "oembed",
+            "type": "file",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -188,27 +191,11 @@
                 "class": "",
                 "id": ""
             },
-            "width": "",
-            "height": ""
-        },
-        {
-            "key": "field_5e5c03a8f0489",
-            "label": "",
-            "name": "",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [],
@@ -229,5 +216,5 @@
         "button_label": "Ad Number",
         "appearances": ""
     },
-    "modified": 1583088572
+    "modified": 1583089037
 }
