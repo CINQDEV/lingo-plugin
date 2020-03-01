@@ -74,9 +74,9 @@
         "repeatable": "0",
         "min": "",
         "max": "",
-        "layout": "block",
+        "layout": "table",
         "button_label": "Ad Number",
         "appearances": ""
     },
-    "modified": 1583075752
+    "modified": 1583077035
 }
